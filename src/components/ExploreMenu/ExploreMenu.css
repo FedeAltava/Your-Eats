@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 20px;
 }
-.explore-menu{
+.explore-menu h1{
     color: #262626;
     font-weight: 500;
 }
@@ -18,4 +18,31 @@
     gap: 30px;
     text-align: center;
     margin:20px, 0px;
+    overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item{
+    cursor: pointer;
+} 
+.explore-menu-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: poniter;
+    border-radius: 50%;
+    transition: 0.2s;
+
+}
+.explore-menu-list-item p{
+    margin-top: 10px;
+    color:#747474;
+    font-size: max(1.4vw,1.6vw);
+
+}
+.explore-menu hr{
+    margin:  10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border:none;
 }
