@@ -1,7 +1,7 @@
 import React from 'react'
 import "./FoodItem.css"
 import { assets } from '../../assets/assets'
-function FoodItem({id, name, price, description, image}) {
+function FoodItem({ id, name, price, description, image }) {
   return (
     <div className='food-item'>
         <div className="food-item-img-container">
